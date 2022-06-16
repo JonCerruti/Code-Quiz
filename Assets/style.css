@@ -1,0 +1,92 @@
+body{
+    background-color:bisque ;
+}
+#leaderboard{
+    float: left;
+    font-size: 35px;
+    color: darkslateblue;
+    font-weight: 1000;
+    cursor: pointer;
+}
+#timer{
+    float: right;
+    font-size: 40px;
+    margin-right: 40px;
+    font-weight: 1000;
+    color: darkslateblue;
+
+}
+
+.info-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); position: absolute;
+}
+
+.start-btn button{
+    font-size: 35px;
+    font-weight: 500;
+    color:aliceblue;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background:darkslateblue ;
+    cursor: pointer;
+    margin-left: 100px;
+  
+    
+}
+.info-box{
+    width: 600px;
+    background: bisque;
+    border-radius: 5px;
+}
+.info-box .info-title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px, solid bisque;
+    display: flex;
+    align-items:center;
+    padding: 0 35px;
+    font-size: 35px;
+    font-weight: 600;
+    color: darkslateblue;
+}
+.info-box .info-list{
+    padding: 15px 35px;
+    color: darkslateblue;
+    font-weight: 600;
+    
+}
+.info-box .info-list .info{
+    margin: 5px 0;
+    font-size: 25px;
+}
+
+.info-box .buttons button{
+margin: 0px 5px;
+height: 75px;
+width: 125px;
+border: 1px solid transparent;
+border-radius: 5px;
+color: bisque;
+font-size: 20px;
+font-weight: 500;
+cursor: pointer;
+justify-content:flex-start
+
+}
+.buttons button#back{
+    border-color: darkslateblue;
+    background: bisque;
+    justify-content: center;
+}
+
+.buttons button#clear{
+    border-color: darkslateblue;
+    background: bisque;
+    color: darkslateblue;
+    justify-content: center;
+}
